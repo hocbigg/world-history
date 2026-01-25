@@ -83,8 +83,8 @@ Practical work is integrated through the [Projects section](projects.md) and may
 
 | Subject | Topics | Book/Text | Online Course |
 | --- | --- | --- | --- |
-| Early Human Societies to 1400 CE (Global) | Ancient river civilizations, Classical empires (Mediterranean, South Asia, East Asia), African kingdoms, Islamic worlds, East Asia, Pre-Columbian Americas, Trade networks (Silk Roads, Indian Ocean) | [World History: Cultures, States, and Societies to 1500](https://ung.edu/university-press/books/world-history-cultures-states-societies-to-1500.php) | [MIT OpenCourseWare – The World: 1400–Present](https://ocw.mit.edu/courses/21h-009-the-world-1400-present-spring-2014/) |
-| 1400–Present: Early Modern to Contemporary World | Early globalization and Columbian Exchange, Industrialization and imperialism, World wars and decolonization, Cold War and globalization | [OpenStax – World History, Volume 2: From 1400](https://openstax.org/details/books/world-history-volume-2) | [UVA – The Modern World (Parts One & Two)](https://www.coursera.org/learn/modern-world) |
+| Early Human Societies to 1400 CE (Global) | Ancient river civilizations, Classical empires (Mediterranean, South Asia, East Asia), African kingdoms, Islamic worlds, East Asia, Pre-Columbian Americas, Trade networks (Silk Roads, Indian Ocean) | [World History: Cultures, States, and Societies to 1500](https://ung.edu/university-press/books/world-history-cultures-states-societies-to-1500.php) | [UVA – The Modern World (Parts One & Two)](https://www.coursera.org/learn/modern-world) |
+| 1400–Present: Early Modern to Contemporary World | Early globalization and Columbian Exchange, Industrialization and imperialism, World wars and decolonization, Cold War and globalization | [OpenStax – World History, Volume 2: From 1400](https://openstax.org/details/books/world-history-volume-2) | [MIT OpenCourseWare – The World: 1400–Present](https://ocw.mit.edu/courses/21h-009-the-world-1400-present-spring-2014/) |
 
 # Code of conduct
 

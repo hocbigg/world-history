@@ -14,7 +14,6 @@ By building, writing, creating, or reconstructing real artifacts in the field, l
 - [Compose your own monograph](#compose-your-own-monograph)
 - [Craft your own biography](#craft-your-own-biography)
 - [Write your own historiography](#write-your-own-historiography)
-- [Create your own historical atlas](#create-your-own-historical-atlas)
 - [Build your own timeline](#build-your-own-timeline)
 
 ### Construct your own chronology
@@ -40,10 +39,6 @@ By building, writing, creating, or reconstructing real artifacts in the field, l
 
 * [Seven Steps to Writing Historiography (University of Guelph)](https://guides.lib.uoguelph.ca/c.php?g=725675&p=5198838) (*Step-by-step literature analysis and writing process*)
 * [How to Create a Historiography: Step-By-Step Creation (URI LibGuides)](https://uri.libguides.com/historiography/creation) (*Clear procedural creation guide*)
-
-### Create your own historical atlas
-
-No sufficiently procedural, step-by-step public guides were identified for independently constructing a full historical atlas from scratch. General cartography or GIS tutorials exist but lack a dedicated historical focus in accessible instructional form.
 
 ### Build your own timeline
 
