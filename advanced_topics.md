@@ -1,18 +1,16 @@
 # Advanced Topics
 
-- [IV. Regional Histories Intermediate Depth](#iv-regional-histories-intermediate-depth)
-- [V. Thematic Global History Advanced Foundations](#v-thematic-global-history-advanced-foundations)
-- [VI. Comparative & Trans-Regional Perspectives](#vi-comparative--trans-regional-perspectives)
+- [Regional Histories Intermediate Depth](#regional-histories-intermediate-depth)
+- [Thematic Global History Advanced Foundations](#thematic-global-history-advanced-foundations)
+- [Comparative & Trans-Regional Perspectives](#comparative--trans-regional-perspectives)
 
-The remaining sections (IV, V, and VI) are deeper or thematic extensions. They are not required for everyone, but they allow you to go further in directions that interest you.
+The remaining sections are deeper or thematic extensions. They are not required for everyone, but they allow you to go further in directions that interest you.
 
-IV. Regional Histories (Intermediate Depth): These are area-focused studies (Africa, East Asia, Middle East & Islamic Worlds, Latin America). Choose 1–3 regions that interest you most, or that connect to your long-term goals (career, travel, family heritage, language study, etc.).
+- Regional Histories (Intermediate Depth): These are area-focused studies (Africa, East Asia, Middle East & Islamic Worlds, Latin America). Choose 1–3 regions that interest you most, or that connect to your long-term goals (career, travel, family heritage, language study, etc.).
+- Thematic Global History (Advanced Foundations): These cut across regions and time periods, focusing on big forces: economy & environment, science & technology, social & gender history, war & empire. Pick 1–3 themes that excite you or seem most relevant to understanding the modern world.
+- Comparative & Trans-Regional Perspectives: These zoom out again to look at large-scale connections and movements (Atlantic world, global trade networks). Use these to tie regional and thematic knowledge back into a bigger global picture. They work especially well after you have done some regional or thematic reading.
 
-V. Thematic Global History (Advanced Foundations): These cut across regions and time periods, focusing on big forces: economy & environment, science & technology, social & gender history, war & empire. Pick 1–3 themes that excite you or seem most relevant to understanding the modern world.
-
-VI. Comparative & Trans-Regional Perspectives: These zoom out again to look at large-scale connections and movements (Atlantic world, global trade networks). Use these to tie regional and thematic knowledge back into a bigger global picture. They work especially well after you have done some regional or thematic reading.
-
-## IV. Regional Histories (Intermediate Depth)
+## Regional Histories (Intermediate Depth)
 
 | Subject | Online Resource |
 | --- | --- |
@@ -21,7 +19,7 @@ VI. Comparative & Trans-Regional Perspectives: These zoom out again to look at l
 | Middle East & Islamic Worlds | [Destiny Disrupted – Tamim Ansary](https://archive.org/details/destinydisrupted00ansa_0) |
 | Latin America | |
 
-## V. Thematic Global History (Advanced Foundations)
+## Thematic Global History (Advanced Foundations)
 
 | Subject | Book/Text | Online Course |
 | --- | --- | --- |
@@ -30,7 +28,7 @@ VI. Comparative & Trans-Regional Perspectives: These zoom out again to look at l
 | Social, Gender, and Cultural History | [A History of the World in 100 Objects – Neil MacGregor](https://www.bbc.co.uk/programmes/b00nrtd2) | |
 | War, Empire, and Power | [The Rise and Fall of the Great Powers – Paul Kennedy](https://archive.org/details/risefallofgreatp00paul) | |
 
-## VI. Comparative & Trans-Regional Perspectives
+## Comparative & Trans-Regional Perspectives
 
 | Subject | Book/Text |
 | --- | --- |
