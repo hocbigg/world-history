@@ -72,28 +72,28 @@ Practical work is integrated through the [Projects section](projects.md) and may
 
 # Curriculum
 
-- [Foundations of Historical Thinking](#foundations-of-historical-thinking) - This section teaches you how historians actually work: how to read sources critically, evaluate evidence, and think historically. Do this before any other content.
-- [Big History and Human Origins](#big-history-and-human-origins) - Gives you the longest possible view of the human story (from the beginning of time through early human societies). This provides essential context for everything that follows.
-- [Core World History: Chronological Spine](#core-world-history-chronological-spine) - Chronological Spine The heart of the curriculum. Study these two parts in order: Early Human Societies to 1400 CE (Global) and 1400–Present (Early Modern to Contemporary World).
+- [Foundations of Historical Thinking](#foundations-of-historical-thinking) - Teaches fundamental historical skills: sourcing, contextualization, corroboration, and close reading of primary and secondary evidence. Must be studied first.
+- [Big History and Human Origins](#big-history-and-human-origins) - Provides the deep-time environmental and evolutionary context from the origins of humanity through early agrarian transitions.
+- [Core World History: Chronological Spine](#core-world-history-chronological-spine) - The primary two-semester undergraduate global survey. Study in sequence: Prehistory to 1500 CE (Global) followed by 1400 to the Present (Early Modern to Contemporary World).
 
 ## Foundations of Historical Thinking
 
-| Subject | Book/Text | Online Course |
+| Subject | Book/Text | Online Course / Practical Lab |
 | --- | --- | --- |
-| Historical Methods and Evidence | [Thinking About History – Sarah Maza](https://archive.org/details/thinkingabouthis0000maza) | [MIT OpenCourseWare – Theories and Methods in the Study of History](https://ocw.mit.edu/courses/21h-991-theories-and-methods-in-the-study-of-history-fall-2014/) (or [Stanford History Education Group (SHEG) Reading Like a Historian](https://www.inquirygroup.org/history-lessons)) |
+| Historical Methods, Sourcing, and Evidence | [Thinking About History – Sarah Maza](https://archive.org/details/thinkingabouthis0000maza) (Supplementary: [Fordham Internet History Sourcebooks Project](https://sourcebooks.fordham.edu/)) | [Digital Inquiry Group (DIG / SHEG) – Reading Like a Historian](https://inquirygroup.org/history-lessons) |
 
 ## Big History and Human Origins
 
 | Subject | Book/Text | Online Course |
 | --- | --- | --- |
-| Deep Time and Human Evolution | [Maps of Time – David Christian](https://archive.org/details/B-001-015-437) | [Big History Project (free, full curriculum)](https://www.oerproject.com/Big-History) |
+| Deep Time, Ecological Context, and Human Origins | [Maps of Time: An Introduction to Big History – David Christian](https://archive.org/details/B-001-015-437) | [Big History Project (OER Project)](https://www.oerproject.com/Big-History) |
 
 ## Core World History: Chronological Spine
 
 | Subject | Topics | Book/Text | Online Course |
 | --- | --- | --- | --- |
-| Early Human Societies to 1400 CE (Global) | Ancient river civilizations, Classical empires (Mediterranean, South Asia, East Asia), African kingdoms, Islamic worlds, East Asia, Pre-Columbian Americas, Trade networks (Silk Roads, Indian Ocean) | [World History: Cultures, States, and Societies to 1500](https://ung.edu/university-press/books/world-history-cultures-states-societies-to-1500.php) | [UVA – The Modern World (Parts One & Two)](https://www.coursera.org/learn/modern-world) |
-| 1400–Present: Early Modern to Contemporary World | Early globalization and Columbian Exchange, Industrialization and imperialism, World wars and decolonization, Cold War and globalization | [OpenStax – World History, Volume 2: From 1400](https://openstax.org/details/books/world-history-volume-2) | [MIT OpenCourseWare – The World: 1400–Present](https://ocw.mit.edu/courses/21h-009-the-world-1400-present-spring-2014/) |
+| Prehistory to 1500 CE (Global Antiquity to Medieval Worlds) | Early river societies, Classical Afro-Eurasia (Mediterranean, South Asia, East Asia), Mesoamerican and Andean civilizations, Post-classical Islamic worlds, African states and trade routes, Nomadic empires (Mongol integration), and Silk Road/Indian Ocean trade networks | [OpenStax – World History, Volume 1: to 1500](https://openstax.org/details/books/world-history-volume-1) | Columbia University – World History to 1500 CE (Prof. Richard Bulliet) (or [Khan Academy – World History Project: Origins to 1500](https://www.khanacademy.org/humanities/world-history)) |
+| 1400 to Present (Early Modern to Contemporary World) | Transoceanic contact and the Columbian Exchange, Gunpowder Empires, Atlantic revolutions, Industrialization, Global Imperialism, World Wars, Decolonization, the Cold War, and modern globalization | [OpenStax – World History, Volume 2: from 1400](https://openstax.org/details/books/world-history-volume-2) | [MIT OpenCourseWare – The World: 1400–Present (21H.009)](https://ocw.mit.edu/courses/21h-009-the-world-1400-present-spring-2014/) (and [UVA – The Modern World: Global History from 1760](https://www.coursera.org/learn/modern-world)) |
 
 # Code of conduct
 

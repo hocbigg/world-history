@@ -1,26 +1,48 @@
-# Extra Reading
+# Landmark Readings in World History
 
-This document consists of great books or articles on World History.
-Some are here because there is a course covering the same material;
-some are just great books that you should read at some point in your career.
+This curated reading list gathers field-defining monographs, transformative paradigm shifts, and seminal essays in World History. These works demonstrate how leading historians formulate macro-historical models, deconstruct Eurocentric frameworks, analyze ecological and economic systems, and interrogate the production of historical knowledge.
 
-Once you have made it through most of the curriculum, knowing whether a book is worth your time will become easier.
-Or, if you are struggling in one of the courses, perhaps reading a book on the subject will help.
+- [Global Systems, Connected Geographies, and the Longue Durée](#global-systems-connected-geographies-and-the-longue-durée) - Foundational models of world systems, macro-sociology, and structural historical time.
+- [Ecology, Disease, and Planetary History](#ecology-disease-and-planetary-history) - Biological exchanges, epidemiological shocks, economic divergence, and climate history.
+- [Capitalism, Empire, and Global Commodity Chains](#capitalism-empire-and-global-commodity-chains) - The structural links between unfree labor, global trade networks, and modern industrialization.
+- [Power, Subalternity, and Decolonial Historiography](#power-subalternity-and-decolonial-historiography) - Methodological critiques of the archive, imperial knowledge production, and subaltern agency.
 
-## Big Picture and Global Perspectives
+## Global Systems, Connected Geographies, and the Longue Durée
 
-Name | Author(s)
-:-- | :--:
-[Sapiens: A Brief History of Humankind](https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095) | Yuval Noah Harari
-[Guns, Germs, and Steel: The Fates of Human Societies](https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552) | Jared Diamond
-[The Silk Roads: A New History of the World](https://www.amazon.com/Silk-Roads-New-History-World/dp/1101912375) | Peter Frankopan
-[Collapse: How Societies Choose to Fail or Succeed](https://www.amazon.com/Collapse-Societies-Choose-Succeed-Revised/dp/0143117009) | Jared Diamond
+| Title | Author(s) | Type | Why It's Worth Reading |
+| --- | --- | --- | --- |
+| The Mediterranean and the Mediterranean World in the Age of Philip II | Fernand Braudel | Landmark Monograph | Established the Annales school concept of the *longue durée*, demonstrating how geographic structures, climate patterns, and sea currents shape human societies far more deeply than short-term political events. |
+| The Modern World-System (Volume I) | Immanuel Wallerstein | Landmark Monograph | Formulated world-systems theory, explaining how sixteenth-century European expansion created an enduring structural division of labor between core, semi-periphery, and periphery. |
+| Before European Hegemony: The World System A.D. 1250–1350 | Janet L. Abu-Lughod | Monograph | Proves that a sophisticated, interconnected Afro-Eurasian commercial world-system flourished across eight regional circuits without a single dominant imperial hegemon prior to European maritime expansion. |
+| Rethinking World History: Essays on Europe, Islam, and World History | Marshall G. S. Hodgson | Essay Collection | A foundational historiographical critique that dismantles Eurocentric cartography and civilizational exceptionalism while demonstrating the centrality of the Islamic world to Afro-Eurasian history. |
+| Explorations in Connected History: From the Tagus to the Ganges | Sanjay Subrahmanyam | Essay Collection | Introduces the influential methodology of "connected histories," rejecting isolated comparative civilizational models in favor of tracking cross-cultural circulation, friction, and hybridity. |
 
-## Thematic and Regional Supplements
+## Ecology, Disease, and Planetary History
 
-Name | Author(s)
-:-- | :--:
-[A History of the World in 100 Objects](https://www.amazon.com/History-World-100-Objects/dp/0143123524) | Neil MacGregor
-[Genghis Khan and the Making of the Modern World](https://www.amazon.com/Genghis-Khan-Making-Modern-World/dp/0609809644) | Jack Weatherford
-[The Dawn of Everything: A New History of Humanity](https://www.amazon.com/Dawn-Everything-New-History-Humanity/dp/0374157359) | David Graeber and David Wengrow
-[A Little History of the World](https://www.amazon.com/Little-History-World-Illustrated/dp/030014332X) | E.H. Gombrich
+| Title | Author(s) | Type | Why It's Worth Reading |
+| --- | --- | --- | --- |
+| The Columbian Exchange: Biological and Cultural Consequences of 1492 | Alfred W. Crosby | Landmark Monograph | Revolutionized global history by demonstrating how the transoceanic transfer of pathogens, staple crops, and fauna after 1492 radically restructured world demography and ecological systems. |
+| Plagues and Peoples | William H. McNeill | Monograph | Pioneered the systematic study of infectious diseases and micro-parasitism as fundamental drivers of human migration, military conquest, and state collapse. |
+| The Great Divergence: China, Europe, and the Making of the Modern World Economy | Kenneth Pomeranz | Comparative Monograph | Decisively reoriented comparative economic history by showing that core areas of Europe and China possessed comparable commercial dynamism until coal deposits and New World resources enabled European divergence. |
+| The Climate of History: Four Theses | Dipesh Chakrabarty | Landmark Paper / Essay | A transformative philosophical essay arguing that human-induced climate change collapses the classical Enlightenment distinction between natural history and human history in the Anthropocene. |
+| Global Crisis: War, Climate Change and Catastrophe in the Seventeenth Century | Geoffrey Parker | Monograph | A monumental study linking the Little Ice Age's climatic cooling with concurrent worldwide political revolutions, civil wars, and demographic collapses across Eurasia and the Americas. |
+
+## Capitalism, Empire, and Global Commodity Chains
+
+| Title | Author(s) | Type | Why It's Worth Reading |
+| --- | --- | --- | --- |
+| Capitalism and Slavery | Eric Williams | Landmark Monograph | Formulated the classic "Williams thesis," demonstrating that the profits generated by chattel slavery and the Atlantic triangular trade provided the direct capital basis for Britain's Industrial Revolution. |
+| The Black Jacobins: Toussaint L'Ouverture and the San Domingo Revolution | C. L. R. James | Classic Monograph | The definitive anti-colonial and Marxist study of the Haitian Revolution, establishing it as the vanguard struggle for universal human rights and global modernity. |
+| Sweetness and Power: The Place of Sugar in Modern History | Sidney W. Mintz | Anthropological Monograph | A masterclass in commodity history connecting the brutal discipline of Caribbean slave plantations with the calorie demands, consumer culture, and factory regimens of the British working class. |
+| Empire of Cotton: A Global History | Sven Beckert | Monograph | Reconstructs the emergence of modern industrial capitalism through "war capitalism"—the violent integration of imperial land theft, enslaved labor, and global trade networks. |
+| The Great Transformation: The Political and Economic Origins of Our Time | Karl Polanyi | Classic Monograph | Demonstrates that the self-regulating market economy is not an inevitable natural state, but an institutionally enforced system that historically disembedded economic transactions from social and cultural relations. |
+
+## Power, Subalternity, and Decolonial Historiography
+
+| Title | Author(s) | Type | Why It's Worth Reading |
+| --- | --- | --- | --- |
+| Silencing the Past: Power and the Production of History | Michel-Rolph Trouillot | Methodological Monograph | A lucid, indispensable analysis of how structural power produces "silences" at every stage of the historical process: source creation, archival assembly, narrative writing, and retrospective commemoration. |
+| Provincializing Europe: Postcolonial Thought and Historical Difference | Dipesh Chakrabarty | Theoretical Monograph | Argues that while European social theory is indispensable for thinking about modernity, it remains inadequate for capturing the diverse lifeworlds, temporalities, and political realities of the non-Western world. |
+| Selected Subaltern Studies | Ranajit Guha and Gayatri Chakravorty Spivak (eds.) | Essay Collection | Foundational essays that revolutionized South Asian and global historiography by reconstructing the autonomous agency, peasant consciousness, and resistance strategies of marginalized populations. |
+| Orientalism | Edward W. Said | Landmark Monograph | Examines the intertwined relationship between academic knowledge production, cultural representation, and Western imperial domination in the Middle East and Asia. |
+| The Invention of Africa: Gnosis, Philosophy, and the Order of Knowledge | V. Y. Mudimbe | Theoretical Monograph | Deconstructs the Western philosophical frameworks, missionary archives, and colonial ethnographic discourses that constructed the conceptual category of "Africa." |

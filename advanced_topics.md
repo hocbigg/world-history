@@ -23,7 +23,7 @@ The remaining sections are deeper or thematic extensions. They are not required 
 
 | Subject | Book/Text | Online Course |
 | --- | --- | --- |
-| Economic and Environmental History | [The Great Divergence – Kenneth Pomeranz](https://archive.org/details/greatdivergence0000unse) | [John McNeill – Environmental History (open lectures)](https://www.youtube.com/watch?v=D4eYJ-kQsF4) |
+| Economic and Environmental History | [The Great Divergence – Kenneth Pomeranz](https://archive.org/details/greatdivergence0000unse) | John McNeill – Environmental History (open lectures) |
 | Science, Technology, and Knowledge | [A History of the World in 12 Maps – Jerry Brotton](https://archive.org/details/historyofworldin0000brot) | [MIT OpenCourseWare – History of Science](https://ocw.mit.edu/courses/sts-310-history-of-science-fall-2015/) |
 | Social, Gender, and Cultural History | [A History of the World in 100 Objects – Neil MacGregor](https://www.bbc.co.uk/programmes/b00nrtd2) | |
 | War, Empire, and Power | [The Rise and Fall of the Great Powers – Paul Kennedy](https://archive.org/details/risefallofgreatp00paul) | |
