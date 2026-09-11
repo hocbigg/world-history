@@ -9,40 +9,40 @@ This curated reading list gathers field-defining monographs, transformative para
 
 ## Global Systems, Connected Geographies, and the Longue Durée
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| The Mediterranean and the Mediterranean World in the Age of Philip II | Fernand Braudel | Landmark Monograph | Established the Annales school concept of the *longue durée*, demonstrating how geographic structures, climate patterns, and sea currents shape human societies far more deeply than short-term political events. |
-| The Modern World-System (Volume I) | Immanuel Wallerstein | Landmark Monograph | Formulated world-systems theory, explaining how sixteenth-century European expansion created an enduring structural division of labor between core, semi-periphery, and periphery. |
-| Before European Hegemony: The World System A.D. 1250–1350 | Janet L. Abu-Lughod | Monograph | Proves that a sophisticated, interconnected Afro-Eurasian commercial world-system flourished across eight regional circuits without a single dominant imperial hegemon prior to European maritime expansion. |
-| Rethinking World History: Essays on Europe, Islam, and World History | Marshall G. S. Hodgson | Essay Collection | A foundational historiographical critique that dismantles Eurocentric cartography and civilizational exceptionalism while demonstrating the centrality of the Islamic world to Afro-Eurasian history. |
-| Explorations in Connected History: From the Tagus to the Ganges | Sanjay Subrahmanyam | Essay Collection | Introduces the influential methodology of "connected histories," rejecting isolated comparative civilizational models in favor of tracking cross-cultural circulation, friction, and hybridity. |
+| Title | Author(s) |
+| --- | --- |
+| [*The Mediterranean and the Mediterranean World in the Age of Philip II*](https://archive.org/details/mediterraneanmed0000brau) | Fernand Braudel |
+| [*The Modern World-System (Volume I)*](https://books.google.com/books?isbn=9780520267572) | Immanuel Wallerstein |
+| [*Before European Hegemony: The World System A.D. 1250–1350*](https://archive.org/details/beforeeuropeanhe0000abul) | Janet L. Abu-Lughod |
+| [*Rethinking World History: Essays on Europe, Islam, and World History*](https://archive.org/details/rethinkingworldh0000hodg) | Marshall G. S. Hodgson |
+| [*Explorations in Connected History: From the Tagus to the Ganges*](https://books.google.com/books?isbn=9780198077169) | Sanjay Subrahmanyam |
 
 ## Ecology, Disease, and Planetary History
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| The Columbian Exchange: Biological and Cultural Consequences of 1492 | Alfred W. Crosby | Landmark Monograph | Revolutionized global history by demonstrating how the transoceanic transfer of pathogens, staple crops, and fauna after 1492 radically restructured world demography and ecological systems. |
-| Plagues and Peoples | William H. McNeill | Monograph | Pioneered the systematic study of infectious diseases and micro-parasitism as fundamental drivers of human migration, military conquest, and state collapse. |
-| The Great Divergence: China, Europe, and the Making of the Modern World Economy | Kenneth Pomeranz | Comparative Monograph | Decisively reoriented comparative economic history by showing that core areas of Europe and China possessed comparable commercial dynamism until coal deposits and New World resources enabled European divergence. |
-| The Climate of History: Four Theses | Dipesh Chakrabarty | Landmark Paper / Essay | A transformative philosophical essay arguing that human-induced climate change collapses the classical Enlightenment distinction between natural history and human history in the Anthropocene. |
-| Global Crisis: War, Climate Change and Catastrophe in the Seventeenth Century | Geoffrey Parker | Monograph | A monumental study linking the Little Ice Age's climatic cooling with concurrent worldwide political revolutions, civil wars, and demographic collapses across Eurasia and the Americas. |
+| Title | Author(s) |
+| --- | --- |
+| [*The Columbian Exchange: Biological and Cultural Consequences of 1492*](https://archive.org/details/columbianexchang0000cros) | Alfred W. Crosby |
+| [*Plagues and Peoples*](https://archive.org/details/plaguespeoples0000mcne) | William H. McNeill |
+| [*The Great Divergence: China, Europe, and the Making of the Modern World Economy*](https://archive.org/details/greatdivergencec0000pome) | Kenneth Pomeranz |
+| [*The Climate of History: Four Theses*](https://doi.org/10.1086/596640) | Dipesh Chakrabarty |
+| [*Global Crisis: War, Climate Change and Catastrophe in the Seventeenth Century*](https://books.google.com/books?isbn=9780300208634) | Geoffrey Parker |
 
 ## Capitalism, Empire, and Global Commodity Chains
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| Capitalism and Slavery | Eric Williams | Landmark Monograph | Formulated the classic "Williams thesis," demonstrating that the profits generated by chattel slavery and the Atlantic triangular trade provided the direct capital basis for Britain's Industrial Revolution. |
-| The Black Jacobins: Toussaint L'Ouverture and the San Domingo Revolution | C. L. R. James | Classic Monograph | The definitive anti-colonial and Marxist study of the Haitian Revolution, establishing it as the vanguard struggle for universal human rights and global modernity. |
-| Sweetness and Power: The Place of Sugar in Modern History | Sidney W. Mintz | Anthropological Monograph | A masterclass in commodity history connecting the brutal discipline of Caribbean slave plantations with the calorie demands, consumer culture, and factory regimens of the British working class. |
-| Empire of Cotton: A Global History | Sven Beckert | Monograph | Reconstructs the emergence of modern industrial capitalism through "war capitalism"—the violent integration of imperial land theft, enslaved labor, and global trade networks. |
-| The Great Transformation: The Political and Economic Origins of Our Time | Karl Polanyi | Classic Monograph | Demonstrates that the self-regulating market economy is not an inevitable natural state, but an institutionally enforced system that historically disembedded economic transactions from social and cultural relations. |
+| Title | Author(s) |
+| --- | --- |
+| [*Capitalism and Slavery*](https://books.google.com/books?isbn=9781469663685) | Eric Williams |
+| [*The Black Jacobins: Toussaint L'Ouverture and the San Domingo Revolution*](https://archive.org/details/blackjacobinstou00jame) | C. L. R. James |
+| [*Sweetness and Power: The Place of Sugar in Modern History*](https://archive.org/details/sweetnesspowerpl00mint) | Sidney W. Mintz |
+| [*Empire of Cotton: A Global History*](https://books.google.com/books?isbn=9780375713965) | Sven Beckert |
+| [*The Great Transformation: The Political and Economic Origins of Our Time*](https://archive.org/details/greattransforma00pola) | Karl Polanyi |
 
 ## Power, Subalternity, and Decolonial Historiography
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| Silencing the Past: Power and the Production of History | Michel-Rolph Trouillot | Methodological Monograph | A lucid, indispensable analysis of how structural power produces "silences" at every stage of the historical process: source creation, archival assembly, narrative writing, and retrospective commemoration. |
-| Provincializing Europe: Postcolonial Thought and Historical Difference | Dipesh Chakrabarty | Theoretical Monograph | Argues that while European social theory is indispensable for thinking about modernity, it remains inadequate for capturing the diverse lifeworlds, temporalities, and political realities of the non-Western world. |
-| Selected Subaltern Studies | Ranajit Guha and Gayatri Chakravorty Spivak (eds.) | Essay Collection | Foundational essays that revolutionized South Asian and global historiography by reconstructing the autonomous agency, peasant consciousness, and resistance strategies of marginalized populations. |
-| Orientalism | Edward W. Said | Landmark Monograph | Examines the intertwined relationship between academic knowledge production, cultural representation, and Western imperial domination in the Middle East and Asia. |
-| The Invention of Africa: Gnosis, Philosophy, and the Order of Knowledge | V. Y. Mudimbe | Theoretical Monograph | Deconstructs the Western philosophical frameworks, missionary archives, and colonial ethnographic discourses that constructed the conceptual category of "Africa." |
+| Title | Author(s) |
+| --- | --- |
+| [*Silencing the Past: Power and the Production of History*](https://archive.org/details/silencingpastpow0000trou) | Michel-Rolph Trouillot |
+| [*Provincializing Europe: Postcolonial Thought and Historical Difference*](https://archive.org/details/provincializinge0000chak) | Dipesh Chakrabarty |
+| [*Selected Subaltern Studies*](https://archive.org/details/dli.bengal.10689.12740) | Ranajit Guha and Gayatri Chakravorty Spivak (eds.) |
+| [*Orientalism*](https://archive.org/details/orientalism0000said) | Edward W. Said |
+| [*The Invention of Africa: Gnosis, Philosophy, and the Order of Knowledge*](https://books.google.com/books?isbn=9780253204684) | V. Y. Mudimbe |

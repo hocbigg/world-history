@@ -3,53 +3,17 @@ title: Hocbigg - World History
 description: Path to a free self-taught education in World History!
 ---
 
-# Contents
-
 - [Summary](#summary)
 - [Communities](#communities)
 - [Curriculum](#curriculum)
-- [Code of conduct](#code-of-conduct)
 
-# Summary
+## Summary
 
 The World History curriculum is a comprehensive education in World History, designed for self-directed study using online materials.
 
-This repository is organized into 2 main components:
-
-- **Core Curriculum** (this page): the foundational knowledge of the field;
-- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
-
-**Process:** Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
-
-- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
-- The Core Curriculum provides a shared foundation and is intended to be completed in full.
-- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
-
-
-Note: High-quality courses or books that do not fit into the core curriculum are listed separately in
-[extras/courses](extras/courses.md) and [extras/readings](extras/readings.md).
-
-## Organization
-
-This repository is organized into three main components:
-
-- **Core Curriculum** (this page): the foundational knowledge of the field;
-- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
-- **[Projects](projects.md)**: support learning through practical application throughout the curriculum.
-
-## Process
-
-Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
-
-- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
-- The Core Curriculum provides a shared foundation and is intended to be completed in full.
-- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
-
-Practical work is integrated through the [Projects section](projects.md) and may be undertaken alongside coursework.
-
 **[How to contribute](/CONTRIBUTING.html)**
 
-# Communities
+## Communities
 
 - Forums:
     - [Historum](https://historum.com/)
@@ -70,34 +34,37 @@ Practical work is integrated through the [Projects section](projects.md) and may
     
     [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
-# Curriculum
+## World History Core Curriculum
 
-- [Foundations of Historical Thinking](#foundations-of-historical-thinking) - Teaches fundamental historical skills: sourcing, contextualization, corroboration, and close reading of primary and secondary evidence. Must be studied first.
-- [Big History and Human Origins](#big-history-and-human-origins) - Provides the deep-time environmental and evolutionary context from the origins of humanity through early agrarian transitions.
-- [Core World History: Chronological Spine](#core-world-history-chronological-spine) - The primary two-semester undergraduate global survey. Study in sequence: Prehistory to 1500 CE (Global) followed by 1400 to the Present (Early Modern to Contemporary World).
+### Foundations of Historical Thinking
 
-## Foundations of Historical Thinking
+This subject introduces the core methods of historical inquiry, teaching learners how to interrogate primary evidence, trace historiographical debates, and construct evidence-based arguments.
 
-| Subject | Book/Text | Online Course / Practical Lab |
-| --- | --- | --- |
-| Historical Methods, Sourcing, and Evidence | [Thinking About History – Sarah Maza](https://archive.org/details/thinkingabouthis0000maza) (Supplementary: [Fordham Internet History Sourcebooks Project](https://sourcebooks.fordham.edu/)) | [Digital Inquiry Group (DIG / SHEG) – Reading Like a Historian](https://inquirygroup.org/history-lessons) |
+[Thinking About History (Sarah Maza)](https://books.google.com/books?isbn=9780226109336) - A readable introduction to how historians formulate questions, evaluate evidence, and interpret the past across social, cultural, and global frameworks.
 
-## Big History and Human Origins
+[Reading Like a Historian (Digital Inquiry Group)](https://inquirygroup.org/history-lessons) - Free document-based inquiry lessons that teach historical reading skills: sourcing, contextualization, corroboration, and close reading.
 
-| Subject | Book/Text | Online Course |
-| --- | --- | --- |
-| Deep Time, Ecological Context, and Human Origins | [Maps of Time: An Introduction to Big History – David Christian](https://archive.org/details/B-001-015-437) | [Big History Project (OER Project)](https://www.oerproject.com/Big-History) |
+### World History to 1500
 
-## Core World History: Chronological Spine
+This subject covers human history from Paleolithic origins and the Neolithic agricultural revolution through classical empires, post-classical trans-regional networks, and medieval Afro-Eurasian and American societies.
 
-| Subject | Topics | Book/Text | Online Course |
-| --- | --- | --- | --- |
-| Prehistory to 1500 CE (Global Antiquity to Medieval Worlds) | Early river societies, Classical Afro-Eurasia (Mediterranean, South Asia, East Asia), Mesoamerican and Andean civilizations, Post-classical Islamic worlds, African states and trade routes, Nomadic empires (Mongol integration), and Silk Road/Indian Ocean trade networks | [OpenStax – World History, Volume 1: to 1500](https://openstax.org/details/books/world-history-volume-1) | Columbia University – World History to 1500 CE (Prof. Richard Bulliet) (or [Khan Academy – World History Project: Origins to 1500](https://www.khanacademy.org/humanities/world-history)) |
-| 1400 to Present (Early Modern to Contemporary World) | Transoceanic contact and the Columbian Exchange, Gunpowder Empires, Atlantic revolutions, Industrialization, Global Imperialism, World Wars, Decolonization, the Cold War, and modern globalization | [OpenStax – World History, Volume 2: from 1400](https://openstax.org/details/books/world-history-volume-2) | [MIT OpenCourseWare – The World: 1400–Present (21H.009)](https://ocw.mit.edu/courses/21h-009-the-world-1400-present-spring-2014/) (and [UVA – The Modern World: Global History from 1760](https://www.coursera.org/learn/modern-world)) |
+[World History, Volume 1: to 1500 (OpenStax)](https://openstax.org/details/books/world-history-volume-1) - A peer-reviewed, open-access textbook providing a balanced global survey of early human societies, river valley civilizations, and classical to medieval exchange networks.
 
-# Code of conduct
+[History of the World to 1500 CE (Columbia University / Richard Bulliet)](https://www.youtube.com/watch?v=r_w7pfulsn8) - A complete 26-lecture undergraduate university survey covering early agriculture, classical states, the spread of world religions, and nomadic empires.
 
-[Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
+[World History Project (Khan Academy)](https://www.khanacademy.org/humanities/world-history) - An interactive, open-access curriculum emphasizing thematic global frames, interregional trade networks, and comparative political development.
 
+### World History from 1400 to the Present
 
+This subject covers the emergence of the modern interconnected world, including transoceanic contact, the Columbian Exchange, gunpowder empires, political and industrial revolutions, imperialism, global conflict, and 20th-century decolonization.
+
+[World History, Volume 2: from 1400 (OpenStax)](https://openstax.org/details/books/world-history-volume-2) - A comprehensive open-access textbook tracing the early modern era, global empires, industrialization, the world wars, and post-war globalization.
+
+[The Origins of the Modern World: A Global and Environmental Narrative from the Fifteenth to the Twenty-First Century (Robert B. Marks)](https://books.google.com/books?isbn=9781442212404) - A concise, non-Eurocentric analysis of how the biological old regime, Asian trade circuits, European expansion, and industrialization shaped the modern global economy.
+
+[History of the World Since 1500 CE (Columbia University / Richard Bulliet)](https://www.youtube.com/playlist?list=PLzBOVNyXEoHJxBA0NqewmSg-0b60ij9zO) - A 20-lecture undergraduate course examining European oceanic expansion, early modern Asian empires, the Atlantic slave trade, and 20th-century geopolitical transformations.
+
+[The Modern World, Part One: Global History from 1760 to 1910 (Coursera / University of Virginia)](https://www.coursera.org/learn/modern-world) - An audit-accessible lecture series focused on the political and industrial revolutions of the long nineteenth century and their worldwide impacts.
+
+[The Modern World, Part Two: Global History since 1910 (Coursera / University of Virginia)](https://www.coursera.org/learn/modern-world-2) - A structured audit-accessible course analyzing the world wars, ideological confrontations of the Cold War, decolonization, and contemporary globalization.
 
