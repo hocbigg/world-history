@@ -1,131 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Advanced Topics</title>
-<link rel="stylesheet" href="/world-history/style.css">
-<meta name="description" content="">
+  <title>Advanced Topics</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/world-history/">
+  <link rel="canonical" href="https://hocbigg.github.io/world-history/advanced_topics.html">
+  <meta property="og:title" content="Advanced Topics">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/world-history/advanced_topics.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Advanced Topics">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/world-history/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/world-history/">World-History</a>
-<a href="/world-history/advanced_topics.html">Advanced Topics</a>
-<a href="/world-history/projects.html">Projects</a>
-<a href="/world-history/extras/courses.html">Extra Courses</a>
-<a href="/world-history/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/world-history/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/world-history/">World History</a></li>
+      <li><a href="/world-history/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/world-history/projects.html">Projects</a></li>
+      <li><a href="/world-history/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/world-history/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/world-history/resources.html">Resources</a></li>
+      <li><a href="/world-history/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
 
 <h1 id="advanced-topics">Advanced Topics</h1>
 <ul>
-<li><a href="#regional-histories-intermediate-depth">Regional Histories Intermediate Depth</a></li>
-<li><a href="#thematic-global-history-advanced-foundations">Thematic Global History Advanced Foundations</a></li>
-<li><a href="#comparative--trans-regional-perspectives">Comparative &amp; Trans-Regional Perspectives</a></li>
+<li><a href="#regional-histories-in-global-perspective">Regional Histories in Global Perspective</a> - Explores individual world regions in depth while situating their local political and cultural developments within wider global historical currents.</li>
+<li><a href="#trans-regional-and-oceanic-histories">Trans-Regional and Oceanic Histories</a> - Focuses on maritime basins and overland conduits that dissolve nation-state borders through sustained commercial, demographic, and cultural exchange.</li>
+<li><a href="#global-environmental-and-economic-history">Global Environmental and Economic History</a> - Analyzes the material engines of history, including long-term ecological transformations, energy transitions, commodity circuits, and the roots of global inequality.</li>
+<li><a href="#empires-imperialism-and-decolonization">Empires, Imperialism, and Decolonization</a> - Examines comparative imperial structures, anti-colonial revolutions, Great Power rivalries, and the ideological clashes that formed the post-colonial order.</li>
+<li><a href="#global-science-technology-and-material-culture">Global Science, Technology, and Material Culture</a> - Investigates the worldwide circulation of scientific ideas, cartographic power, material artifacts, and the historical impact of epidemic diseases.</li>
 </ul>
-<p>The remaining sections are deeper or thematic extensions. They are not required for everyone, but they allow you to go further in directions that interest you.</p>
-<ul>
-<li>Regional Histories (Intermediate Depth): These are area-focused studies (Africa, East Asia, Middle East &amp; Islamic Worlds, Latin America). Choose 1–3 regions that interest you most, or that connect to your long-term goals (career, travel, family heritage, language study, etc.).</li>
-<li>Thematic Global History (Advanced Foundations): These cut across regions and time periods, focusing on big forces: economy &amp; environment, science &amp; technology, social &amp; gender history, war &amp; empire. Pick 1–3 themes that excite you or seem most relevant to understanding the modern world.</li>
-<li>Comparative &amp; Trans-Regional Perspectives: These zoom out again to look at large-scale connections and movements (Atlantic world, global trade networks). Use these to tie regional and thematic knowledge back into a bigger global picture. They work especially well after you have done some regional or thematic reading.</li>
-</ul>
-<h2 id="regional-histories-intermediate-depth">Regional Histories (Intermediate Depth)</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Online Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Africa</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.unesco.org/en/general-history-africa">UNESCO – General History of Africa</a> (multiple volumes)</td>
-</tr>
-<tr>
-<td>East Asia</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/eastasianewhisto0000murp">East Asia: A New History – Rhoads Murphey</a></td>
-</tr>
-<tr>
-<td>Middle East &amp; Islamic Worlds</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/destinydisrupted00ansa_0">Destiny Disrupted – Tamim Ansary</a></td>
-</tr>
-<tr>
-<td>Latin America</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="thematic-global-history-advanced-foundations">Thematic Global History (Advanced Foundations)</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book/Text</th>
-<th>Online Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Economic and Environmental History</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/greatdivergence0000unse">The Great Divergence – Kenneth Pomeranz</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=D4eYJ-kQsF4">John McNeill – Environmental History (open lectures)</a></td>
-</tr>
-<tr>
-<td>Science, Technology, and Knowledge</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/historyofworldin0000brot">A History of the World in 12 Maps – Jerry Brotton</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/sts-310-history-of-science-fall-2015/">MIT OpenCourseWare – History of Science</a></td>
-</tr>
-<tr>
-<td>Social, Gender, and Cultural History</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.bbc.co.uk/programmes/b00nrtd2">A History of the World in 100 Objects – Neil MacGregor</a></td>
-<td></td>
-</tr>
-<tr>
-<td>War, Empire, and Power</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/risefallofgreatp00paul">The Rise and Fall of the Great Powers – Paul Kennedy</a></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="comparative-trans-regional-perspectives">Comparative &amp; Trans-Regional Perspectives</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book/Text</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Atlantic World and Migration</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/atlanticworldeur0000benj">The Atlantic World: 1450–2000 – Thomas Benjamin et al.</a></td>
-</tr>
-<tr>
-<td>Global Connectivity and Exchange</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/silkroadsnewhist0000fran">The Silk Roads – Peter Frankopan</a></td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+<h2 id="regional-histories-in-global-perspective">Regional Histories in Global Perspective</h2>
+<p>This track provides area-specific historical depth across major non-Western civilizations, balancing local agency and internal institutions against trans-regional pressures.</p>
+<p>Sub-Saharan Africa: <a href="https://www.unesco.org/en/general-history-africa" target="_blank" rel="noopener noreferrer">General History of Africa (UNESCO)</a> - A foundational multi-volume open-access corpus authored primarily by African scholars to decenter colonial narratives and recover continental history from antiquity to the post-colonial period.</p>
+<p>East Asia: <a href="https://www.edx.org/course/chinax-chinas-past-present-and-future" target="_blank" rel="noopener noreferrer">ChinaX: China's Past, Present and Future (Harvard University / edX)</a> - An advanced multi-part open course exploring Chinese dynastic statecraft, philosophical paradigms, bureaucratic structures, and modern transformations in comparative perspective.</p>
+<p>The Middle East and Islamic World: <a href="https://books.google.com/books?isbn=9780813349800" target="_blank" rel="noopener noreferrer">A History of the Modern Middle East (William L. Cleveland and Martin Bunton)</a> - An authoritative advanced text analyzing Ottoman and Qajar administrative transformations, European colonial mandates, nationalist movements, and modern state formation.</p>
+<p>Latin America and the Caribbean: <a href="https://books.google.com/books?isbn=9780393283051" target="_blank" rel="noopener noreferrer">Born in Blood and Fire: A Concise History of Latin America (John Charles Chasteen)</a> - An incisive narrative connecting the colonial encounter, racial caste hierarchies, trans-Atlantic independence movements, and modern populist revolutions.</p>
+<p>South Asia: <a href="https://books.google.com/books?isbn=9781107672185" target="_blank" rel="noopener noreferrer">A Concise History of Modern India (Barbara D. Metcalf and Thomas R. Metcalf)</a> - An essential study examining the decline of the Mughal Empire, British imperial statecraft, anti-colonial resistance, and the complex historical roots of religious and national identities.</p>
+<h2 id="trans-regional-and-oceanic-histories">Trans-Regional and Oceanic Histories</h2>
+<p>This track examines geographic zones defined by water and land corridors, highlighting how cross-cultural mobility and maritime networks shaped global interconnectedness.</p>
+<p>The Atlantic World: <a href="https://books.google.com/books?isbn=9780521850995" target="_blank" rel="noopener noreferrer">The Atlantic World: Europeans, Africans, Indians and Their Shared History, 1400–1900 (Thomas Benjamin)</a> - A comprehensive spatial history detailing how coerced labor systems, triangular trade, and imperial rivalries generated a interconnected ocean basin.</p>
+<p>The Indian Ocean Arena: <a href="https://books.google.com/books?isbn=9780415445382" target="_blank" rel="noopener noreferrer">The Indian Ocean (Michael N. Pearson)</a> - A pioneer study that centers the ocean itself to analyze monsoon trade routes, cosmopolitan coastal enclaves, and inter-Asian commercial networks from antiquity through European arrival.</p>
+<p>The Silk Roads and Inner Asia: <a href="https://books.google.com/books?isbn=9781101912379" target="_blank" rel="noopener noreferrer">The Silk Roads: A New History of the World (Peter Frankopan)</a> - A sweeping trans-Eurasian narrative demonstrating how overland trading networks through Central Asia mediated the transmission of global capital, religious faiths, and geopolitical power.</p>
+<p>The Pacific Basin: <a href="https://books.google.com/books?isbn=9780199914951" target="_blank" rel="noopener noreferrer">The Great Ocean: Pacific Worlds from Captain Cook to the Gold Rush (David Igler)</a> - An advanced environmental and maritime history examining the rapid integration of Indigenous Pacific societies, marine exploitation, and global trade corridors in the eighteenth and nineteenth centuries.</p>
+<h2 id="global-environmental-and-economic-history">Global Environmental and Economic History</h2>
+<p>This track investigates the material underpinnings of human societies, exploring ecological constraints, energy regimes, and the structural causes of global economic divergence.</p>
+<p>The Great Divergence: <a href="https://books.google.com/books?isbn=9780691217185" target="_blank" rel="noopener noreferrer">The Great Divergence: China, Europe, and the Making of the Modern World Economy (Kenneth Pomeranz)</a> - A landmark comparative work analyzing why sustained industrial development began in Northwest Europe rather than wealthy core regions of East Asia.</p>
+<p>Ecological Imperialism: <a href="https://books.google.com/books?isbn=9781107569874" target="_blank" rel="noopener noreferrer">Ecological Imperialism: The Biological Expansion of Europe, 900–1900 (Alfred W. Crosby)</a> - A seminal environmental analysis explaining how European animals, plants, and pathogens facilitated the conquest and settlement of temperate zones worldwide.</p>
+<p>The Anthropocene: <a href="https://books.google.com/books?isbn=9780674545038" target="_blank" rel="noopener noreferrer">The Great Acceleration: An Environmental History of the Anthropocene since 1945 (J. R. McNeill and Peter Engelke)</a> - An incisive study detailing the dramatic post-WWII acceleration of fossil fuel exploitation, urbanization, carbon emissions, and planetary biosphere alterations.</p>
+<p>Global Commodity Chains: <a href="https://books.google.com/books?isbn=9780375713965" target="_blank" rel="noopener noreferrer">Empire of Cotton: A Global History (Sven Beckert)</a> - A masterclass in global commodity history illustrating how coercive labor, imperial state power, and industrial manufacturing created modern global capitalism.</p>
+<h2 id="empires-imperialism-and-decolonization">Empires, Imperialism, and Decolonization</h2>
+<p>This track explores the mechanics of imperial expansion, governance of multiethnic subject populations, revolutionary ruptures, and the collapse of empires in the modern era.</p>
+<p>Comparative Imperial Statecraft: <a href="https://books.google.com/books?isbn=9780691152363" target="_blank" rel="noopener noreferrer">Empires in World History: Power and the Politics of Difference (Jane Burbank and Frederick Cooper)</a> - A wide-ranging comparative analysis of how ancient, Eurasian, and modern maritime empires accommodated, manipulated, and enforced political difference.</p>
+<p>The Age of Atlantic Revolutions: <a href="https://books.google.com/books?isbn=9781479857173" target="_blank" rel="noopener noreferrer">Revolutions in the Atlantic World: A Comparative History (Wim Klooster)</a> - A comparative study of the structural causes and ideological connections uniting the American, French, Haitian, and Spanish-American revolutions.</p>
+<p>The Global Cold War: <a href="https://books.google.com/books?isbn=9780521703147" target="_blank" rel="noopener noreferrer">The Global Cold War: Third World Interventions and the Making of Our Times (Odd Arne Westad)</a> - A transformative global reassessment showing how ideological superpower interventions fueled post-colonial conflicts across Africa, Asia, and Latin America.</p>
+<p>Great Power Dynamics: <a href="https://books.google.com/books?isbn=9780679720195" target="_blank" rel="noopener noreferrer">The Rise and Fall of the Great Powers (Paul Kennedy)</a> - An influential strategic and economic analysis examining the interaction between economic productivity, military overexpansion, and imperial decline over five centuries.</p>
+<h2 id="global-science-technology-and-material-culture">Global Science, Technology, and Material Culture</h2>
+<p>This track analyzes how human societies generated, circulated, and applied knowledge, artifacts, and medical practices across cultural and geographic boundaries.</p>
+<p>History of Global Science: <a href="https://books.google.com/books?isbn=9781421417752" target="_blank" rel="noopener noreferrer">Science and Technology in World History: An Introduction (James E. McClellan III and Harold Dorn)</a> - A comprehensive global examination contrasting state-directed practical engineering with theoretical science across ancient civilizations, the Islamic world, China, and the industrial West.</p>
+<p>Historical Cartography: <a href="https://books.google.com/books?isbn=9780141034935" target="_blank" rel="noopener noreferrer">A History of the World in Twelve Maps (Jerry Brotton)</a> - A critical spatial study demonstrating how world maps from antiquity to Google Earth functioned as ideological instruments of empire, faith, and political dominance.</p>
+<p>Material Culture and Artifacts: <a href="https://www.bbc.co.uk/programmes/b00nrtd2" target="_blank" rel="noopener noreferrer">A History of the World in 100 Objects (Neil MacGregor / BBC Radio 4)</a> - An audio masterclass exploring global human history, economic exchange, and cultural meaning through the close reading of material artifacts.</p>
+<p>History of Epidemics and Public Health: <a href="https://oyc.yale.edu/history/hist-234" target="_blank" rel="noopener noreferrer">Epidemics in Western Society Since 1600 (Open Yale Courses / Frank M. Snowden)</a> - A complete university lecture series investigating how infectious diseases have shaped warfare, urban design, religious attitudes, and modern state capacity.</p>
+    </article>
+  </main>
 
 </body>
 </html>

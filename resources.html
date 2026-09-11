@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+
+  <title>Resources</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
+
+  <link rel="canonical" href="https://hocbigg.github.io/world-history/resources.html">
+  <meta property="og:title" content="Resources">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/world-history/resources.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/world-history/">World History</a></li>
+      <li><a href="/world-history/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/world-history/projects.html">Projects</a></li>
+      <li><a href="/world-history/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/world-history/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/world-history/resources.html">Resources</a></li>
+      <li><a href="/world-history/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
+
+<h1 id="resources">Resources</h1>
+<p>This page collects high-utility digital archives, interactive geospatial tools, quantitative historical databases, and open museum repositories. These reference resources are designed to be consulted during research and reading to examine primary evidence, verify historical geography, and analyze long-term historical data.</p>
+<h2 id="primary-source-repositories-and-archival-collections">Primary Source Repositories and Archival Collections</h2>
+<p>This topic covers digital archives and documentary repositories that provide free access to translated primary texts, treaties, and declassified government records.</p>
+<ul>
+<li><a href="https://sourcebooks.fordham.edu/" target="_blank" rel="noopener noreferrer">Internet History Sourcebooks Project (Fordham University / Paul Halsall)</a> - A curated collection of public-domain historical texts, legal documents, and religious writings organized into ancient, medieval, modern, Islamic, East Asian, and African sections.</li>
+<li><a href="https://www.loc.gov/collections/world-digital-library/" target="_blank" rel="noopener noreferrer">World Digital Library (Library of Congress / UNESCO)</a> - A global repository of high-resolution manuscripts, rare books, prints, and cultural documents contributed by partner archives from over one hundred countries.</li>
+<li><a href="https://digitalarchive.wilsoncenter.org/" target="_blank" rel="noopener noreferrer">Wilson Center Digital Archive (Woodrow Wilson International Center for Scholars)</a> - An extensive archive of declassified diplomatic cables, government memoranda, and intelligence records documenting Cold War international history and nuclear diplomacy.</li>
+<li><a href="https://www.slavevoyages.org/" target="_blank" rel="noopener noreferrer">SlaveVoyages (SlaveVoyages Consortium)</a> - A peer-reviewed digital memorial and database documenting the records, ports of departure, ship manifests, and demographic data of more than 36,000 trans-Atlantic and intra-American slave voyages.</li>
+</ul>
+<h2 id="historical-cartography-and-geospatial-tools">Historical Cartography and Geospatial Tools</h2>
+<p>This topic covers interactive historical atlases, spatial portals, and gazetteers that track boundary shifts, toponyms, and trade routes across millennia.</p>
+<ul>
+<li><a href="https://geacron.com/" target="_blank" rel="noopener noreferrer">GeaCron: Interactive World History Atlas (GeaCron)</a> - A vector-based temporal atlas that displays global geopolitical borders, sovereign states, and major territorial migrations year-by-year from 3000 BCE to the present.</li>
+<li><a href="https://www.davidrumsey.com/" target="_blank" rel="noopener noreferrer">David Rumsey Historical Map Collection (Stanford University)</a> - An open collection of over 150,000 high-resolution historical maps featuring georeferencing tools, temporal sliders, and comparative side-by-side viewers.</li>
+<li><a href="https://www.oldmapsonline.org/" target="_blank" rel="noopener noreferrer">Old Maps Online (Klokan Technologies)</a> - A coordinate-based search engine that indexes digitized historical maps across hundreds of university libraries and national archives worldwide.</li>
+<li><a href="https://pleiades.stoa.org/" target="_blank" rel="noopener noreferrer">Pleiades: A Gazetteer of Past Places (Institute for the Study of the Ancient World / NYU)</a> - A collaborative, open-access geographical gazetteer that provides spatial coordinates, historical names, and citations for ancient Mediterranean, Near Eastern, and Eurasian locations.</li>
+</ul>
+<h2 id="macro-historical-data-and-demographic-portals">Macro-Historical Data and Demographic Portals</h2>
+<p>This topic covers open empirical datasets and visualization platforms tracking long-run economic growth, trade patterns, and human development over centuries.</p>
+<ul>
+<li><a href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/" target="_blank" rel="noopener noreferrer">Maddison Project Database (Groningen Growth and Development Centre / University of Groningen)</a> - The standard quantitative benchmark in comparative economic history, providing historical estimates of GDP per capita and population for global economies from antiquity onward.</li>
+<li><a href="https://ourworldindata.org/" target="_blank" rel="noopener noreferrer">Our World in Data (University of Oxford / Global Change Data Lab)</a> - An open empirical publication featuring interactive long-run charts and data visualizations on global demographic transitions, literacy rates, health, and technological change.</li>
+<li><a href="https://clio-infra.eu/" target="_blank" rel="noopener noreferrer">Clio Infra: Reconstructing Global Inequality (International Institute of Social History)</a> - An open-access database providing standardized longitudinal data on worldwide wages, agricultural productivity, gender inequality, and central government debt from 1500 to the present.</li>
+</ul>
+<h2 id="specialized-historical-encyclopedias-and-reference-compendiums">Specialized Historical Encyclopedias and Reference Compendiums</h2>
+<p>This topic covers open, peer-reviewed subject encyclopedias offering rigorous reference entries on regional civilizations, historical movements, and major global conflicts.</p>
+<ul>
+<li><a href="https://www.worldhistory.org/" target="_blank" rel="noopener noreferrer">World History Encyclopedia (World History Publishing)</a> - An open-access, peer-reviewed educational encyclopedia featuring thoroughly fact-checked articles, maps, and timelines on ancient and medieval world civilizations.</li>
+<li><a href="https://www.iranicaonline.org/" target="_blank" rel="noopener noreferrer">Encyclopædia Iranica (Ehsan Yarshater Center / Columbia University &amp; UC Irvine)</a> - A comprehensive scholarly reference work documenting Iranian, Persianate, and Central Asian languages, literature, culture, and political history.</li>
+<li><a href="https://encyclopedia.1914-1918-online.net/" target="_blank" rel="noopener noreferrer">1914-1918-online: International Encyclopedia of the First World War (Freie Universität Berlin)</a> - A collaborative, peer-reviewed digital encyclopedia providing global, multi-perspective scholarly coverage of the First World War.</li>
+</ul>
+<h2 id="material-culture-archaeology-and-museum-collections">Material Culture, Archaeology, and Museum Collections</h2>
+<p>This topic covers open museum catalogs, artifact archives, and archaeological platforms that connect textual history with material evidence.</p>
+<ul>
+<li><a href="https://www.metmuseum.org/toah/" target="_blank" rel="noopener noreferrer">Heilbrunn Timeline of Art History (The Metropolitan Museum of Art)</a> - A thematic and chronological reference tool that pairs curatorial essays with high-resolution imagery of artworks and artifacts from across all major world cultures.</li>
+<li><a href="https://www.britishmuseum.org/collection" target="_blank" rel="noopener noreferrer">British Museum Collection Online (The British Museum)</a> - A searchable catalog containing millions of object records, numismatic specimens, and archaeological discoveries across six continents with high-resolution photography.</li>
+<li><a href="https://www.si.edu/openaccess" target="_blank" rel="noopener noreferrer">Smithsonian Open Access (Smithsonian Institution)</a> - A multi-museum repository providing public domain 2D and 3D imagery, field research data, and anthropological object records from collections across the Americas, Africa, and Asia.</li>
+<li><a href="http://www.perseus.tufts.edu/hopper/" target="_blank" rel="noopener noreferrer">Perseus Digital Library (Tufts University)</a> - An open-access digital library providing digitized classical Greek and Roman texts, architectural models, numismatic catalogs, and archaeological site plans.</li>
+</ul>
+    </article>
+  </main>
+
+</body>
+</html>

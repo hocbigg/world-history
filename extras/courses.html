@@ -1,153 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Extra Courses</title>
-<link rel="stylesheet" href="/world-history/style.css">
-<meta name="description" content="">
+  <title>Great Courses: World History</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/world-history/">
+  <link rel="canonical" href="https://hocbigg.github.io/world-history/extras/courses.html">
+  <meta property="og:title" content="Great Courses: World History">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/world-history/extras/courses.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Extra Courses">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/world-history/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/world-history/">World-History</a>
-<a href="/world-history/advanced_topics.html">Advanced Topics</a>
-<a href="/world-history/projects.html">Projects</a>
-<a href="/world-history/extras/courses.html">Extra Courses</a>
-<a href="/world-history/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/world-history/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/world-history/">World History</a></li>
+      <li><a href="/world-history/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/world-history/projects.html">Projects</a></li>
+      <li><a href="/world-history/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/world-history/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/world-history/resources.html">Resources</a></li>
+      <li><a href="/world-history/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="extra-courses">Extra Courses</h1>
-<p>This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.</p>
-<h2 id="overview-and-surveys">Overview and Surveys</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PLBDA2E52FB1EF80C9">Crash Course World History (YouTube Series)</a></td>
-<td style="text-align: center;">42 episodes (~10-15 min each)</td>
-<td style="text-align: center;">10-15 hours total</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://thecrashcourse.com/topic/worldhistory2/">Crash Course World History II (YouTube Series)</a></td>
-<td style="text-align: center;">30 episodes (~10-15 min each)</td>
-<td style="text-align: center;">8-12 hours total</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/world-history">A History of the World since 1300 (Princeton on Coursera - audit free)</a></td>
-<td style="text-align: center;">12 weeks</td>
-<td style="text-align: center;">4-6 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/learn/history">The World History of Modern Wine (Trinity College on edX)</a> (search for specific)</td>
-<td style="text-align: center;">Variable</td>
-<td style="text-align: center;">Variable</td>
-</tr>
-</tbody>
-</table>
-<h2 id="ancient-and-pre-modern">Ancient and Pre-Modern</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/introancientegypt">Introduction to Ancient Egypt and Its Civilization (University of Pennsylvania on Coursera - audit free)</a></td>
-<td style="text-align: center;">6 weeks</td>
-<td style="text-align: center;">3-5 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history/hist-210">The Early Middle Ages, 284–1000 (Open Yale Courses)</a></td>
-<td style="text-align: center;">23 lectures</td>
-<td style="text-align: center;">2-3 hours/week</td>
-</tr>
-</tbody>
-</table>
-<h2 id="modern-and-thematic">Modern and Thematic</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history/hist-202">European Civilization, 1648-1945 (Open Yale Courses)</a></td>
-<td style="text-align: center;">23 lectures</td>
-<td style="text-align: center;">2-3 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/french-revolution">The French Revolution (University of Melbourne on Coursera - audit free)</a></td>
-<td style="text-align: center;">9 weeks</td>
-<td style="text-align: center;">3-4 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PLBDA2E52FB1EF80C9">History of the World to 1500 CE (Columbia University Lectures on YouTube)</a> (related series)</td>
-<td style="text-align: center;">Variable</td>
-<td style="text-align: center;">Variable</td>
-</tr>
-</tbody>
-</table>
-<h2 id="online-learning-great-courses">Online Learning - Great Courses</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/learning-how-to-learn">Learning How to Learn</a></td>
-<td style="text-align: center;">4 weeks</td>
-<td style="text-align: center;">2 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/mindshift">Mindshift</a></td>
-<td style="text-align: center;">4 weeks</td>
-<td style="text-align: center;">2 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/learn/google-power-searching/google-power-searching-with-google">Powersearching with Google</a></td>
-<td style="text-align: center;">3 weeks</td>
-<td style="text-align: center;">4-6 hours/week</td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+  <main id="main-content">
+    <article>
+
+<h1 id="great-courses-world-history">Great Courses: World History</h1>
+<p>This curated guide gathers high-signal university lecture series, massive open online courses (MOOCs), and comprehensive narrative audio series in World History. These resources provide structured, university-level instruction across major historical eras, regional civilizations, and global thematic transformations without requiring institutional enrollment.</p>
+<ul>
+<li><a href="#ancient-and-classical-civilizations">Ancient and Classical Civilizations</a></li>
+<li><a href="#medieval-and-early-modern-eras">Medieval and Early Modern Eras</a></li>
+<li><a href="#revolutions-empires-and-state-formation">Revolutions, Empires, and State Formation</a></li>
+<li><a href="#the-modern-world-and-global-conflicts">The Modern World and Global Conflicts</a></li>
+<li><a href="#trans-regional-and-thematic-histories">Trans-Regional and Thematic Histories</a></li>
+</ul>
+<h2 id="ancient-and-classical-civilizations">Ancient and Classical Civilizations</h2>
+<ul>
+<li><a href="https://oyc.yale.edu/history/hist-205" target="_blank" rel="noopener noreferrer">Introduction to Ancient Greek History (HIST 205) (Open Yale Courses / Donald Kagan)</a></li>
+<li><a href="https://oyc.yale.edu/history-of-art/hsar-252" target="_blank" rel="noopener noreferrer">Roman Architecture (HSAR 252) (Open Yale Courses / Diana E. E. Kleiner)</a></li>
+<li><a href="https://www.coursera.org/learn/introancientegypt" target="_blank" rel="noopener noreferrer">Introduction to Ancient Egypt and Its Civilization (Coursera / University of Pennsylvania / David Silverman)</a></li>
+</ul>
+<h2 id="medieval-and-early-modern-eras">Medieval and Early Modern Eras</h2>
+<ul>
+<li><a href="https://oyc.yale.edu/history/hist-210" target="_blank" rel="noopener noreferrer">The Early Middle Ages, 284–1000 (HIST 210) (Open Yale Courses / Paul Freedman)</a></li>
+<li><a href="https://www.edx.org/course/chinax-chinas-past-present-and-future" target="_blank" rel="noopener noreferrer">ChinaX: China's Past, Present and Future (edX / Harvard University / Peter K. Bol &amp; William C. Kirby)</a></li>
+<li><a href="https://oyc.yale.edu/history/hist-251" target="_blank" rel="noopener noreferrer">Early Modern England: Politics, Religion, and Society under the Tudors and Stuarts (HIST 251) (Open Yale Courses / Keith E. Wrightson)</a></li>
+</ul>
+<h2 id="revolutions-empires-and-state-formation">Revolutions, Empires, and State Formation</h2>
+<ul>
+<li><a href="https://www.coursera.org/learn/french-revolution" target="_blank" rel="noopener noreferrer">The French Revolution (Coursera / University of Melbourne / Peter McPhee)</a></li>
+<li><a href="https://oyc.yale.edu/history/hist-202" target="_blank" rel="noopener noreferrer">European Civilization, 1648–1945 (HIST 202) (Open Yale Courses / John Merriman)</a></li>
+<li><a href="https://oyc.yale.edu/history/hist-119" target="_blank" rel="noopener noreferrer">The Civil War and Reconstruction Era, 1845–1877 (HIST 119) (Open Yale Courses / David W. Blight)</a></li>
+<li><a href="https://thehistoryofrome.typepad.com/revolutions_podcast/" target="_blank" rel="noopener noreferrer">Revolutions (Independent Audio / Mike Duncan)</a></li>
+<li><a href="https://goalhangerpodcasts.com/empire/" target="_blank" rel="noopener noreferrer">Empire (Goalhanger Podcasts / William Dalrymple &amp; Anita Anand)</a></li>
+</ul>
+<h2 id="the-modern-world-and-global-conflicts">The Modern World and Global Conflicts</h2>
+<ul>
+<li><a href="https://www.coursera.org/learn/modern-world" target="_blank" rel="noopener noreferrer">The Modern World, Part One: Global History from 1760 to 1910 (Coursera / University of Virginia / Philip Zelikow)</a></li>
+<li><a href="https://www.coursera.org/learn/modern-world-2" target="_blank" rel="noopener noreferrer">The Modern World, Part Two: Global History since 1910 (Coursera / University of Virginia / Philip Zelikow)</a></li>
+<li><a href="https://oyc.yale.edu/history/hist-276" target="_blank" rel="noopener noreferrer">France Since 1871 (HIST 276) (Open Yale Courses / John Merriman)</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLh9mgdi4rNewfxO7LhBoz_1Mx1MaO6sw_" target="_blank" rel="noopener noreferrer">The Making of Modern Ukraine (Yale University / YouTube / Timothy Snyder)</a></li>
+</ul>
+<h2 id="trans-regional-and-thematic-histories">Trans-Regional and Thematic Histories</h2>
+<ul>
+<li><a href="https://www.edx.org/course/global-history-lab" target="_blank" rel="noopener noreferrer">Global History Lab: A History of the World since 1300 (edX / Princeton University / Jeremy Adelman)</a></li>
+<li><a href="https://oyc.yale.edu/history/hist-234" target="_blank" rel="noopener noreferrer">Epidemics in Western Society Since 1600 (HIST 234) (Open Yale Courses / Frank M. Snowden)</a></li>
+<li><a href="https://www.bbc.co.uk/programmes/p01dh5yg" target="_blank" rel="noopener noreferrer">In Our Time: History (BBC Radio 4 / Melvyn Bragg)</a></li>
+</ul>
+    </article>
+  </main>
 
 </body>
 </html>

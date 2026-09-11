@@ -1,86 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Projects</title>
-<link rel="stylesheet" href="/world-history/style.css">
-<meta name="description" content="">
+  <title>Projects</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/world-history/">
+  <link rel="canonical" href="https://hocbigg.github.io/world-history/projects.html">
+  <meta property="og:title" content="Projects">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/world-history/projects.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Projects">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/world-history/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/world-history/">World-History</a>
-<a href="/world-history/advanced_topics.html">Advanced Topics</a>
-<a href="/world-history/projects.html">Projects</a>
-<a href="/world-history/extras/courses.html">Extra Courses</a>
-<a href="/world-history/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/world-history/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/world-history/">World History</a></li>
+      <li><a href="/world-history/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/world-history/projects.html">Projects</a></li>
+      <li><a href="/world-history/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/world-history/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/world-history/resources.html">Resources</a></li>
+      <li><a href="/world-history/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
 
 <h1 id="projects">Projects</h1>
-<p>This page is a curated collection of well-written, step-by-step guides for learning World History through hands-on, project-based practice.</p>
-<blockquote>
-<p><em>What I cannot create, I do not understand — Richard Feynman.</em></p>
-</blockquote>
-<p>These projects are meant to support learning throughout the curriculum, not only at the end.<br />
-By building, writing, creating, or reconstructing real artifacts in the field, learners develop practical understanding alongside theoretical study.</p>
-<h2 id="tutorials">Tutorials</h2>
+<p>This page provides a curated directory of step-by-step methodological walkthroughs, open-source project guides, and analytical workflows for studying World History through concrete deliverables. Rather than following abstract academic exercises, learners can select an artifact to construct—such as an interactive spatial map, a digital primary-source archive, or an oral history collection—and apply historical methods through hands-on practice.</p>
+<h2 id="build-an-interactive-historical-timeline">Build an Interactive Historical Timeline</h2>
 <ul>
-<li><a href="#construct-your-own-chronology">Construct your own chronology</a></li>
-<li><a href="#write-your-own-narrative">Write your own narrative</a></li>
-<li><a href="#compose-your-own-monograph">Compose your own monograph</a></li>
-<li><a href="#craft-your-own-biography">Craft your own biography</a></li>
-<li><a href="#write-your-own-historiography">Write your own historiography</a></li>
-<li><a href="#build-your-own-timeline">Build your own timeline</a></li>
+<li><a href="https://timeline.knightlab.com/" target="_blank" rel="noopener noreferrer">TimelineJS: Make an Interactive Timeline (Knight Lab, Northwestern University)</a></li>
 </ul>
-<h3 id="construct-your-own-chronology">Construct your own chronology</h3>
+<h2 id="map-spatial-and-geographic-history">Map Spatial and Geographic History</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.aeontimeline.com/guides/ancient-history">Create an Ancient History Timeline (Aeon's Guide)</a> (<em>Step-by-step software walkthrough</em>)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.historyassociates.com/creating-history-timelines">Making the Most of Milestones: Four Tips for Creating Effective History Timelines</a> (<em>Practical infographic-based process</em>)</li>
+<li><a href="https://storymap.knightlab.com/" target="_blank" rel="noopener noreferrer">StoryMapJS: Telling Stories with Maps (Knight Lab, Northwestern University)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js" target="_blank" rel="noopener noreferrer">Displaying a Georeferenced Map in KnightLab's StoryMap JS (The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/geocoding-historical-data-using-qgis" target="_blank" rel="noopener noreferrer">Geocoding Historical Data using QGIS (The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/georeferencing-qgis-2" target="_blank" rel="noopener noreferrer">Georeferencing in QGIS 2.0 (The Programming Historian)</a></li>
 </ul>
-<h3 id="write-your-own-narrative">Write your own narrative</h3>
+<h2 id="curate-a-digital-archive-or-online-exhibit">Curate a Digital Archive or Online Exhibit</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.kspatriot.org/index.php/articles/60-guest-authors/722-how-to-write-a-history-narrative-essay-step-by-step-guide.html">How to Write a History Narrative Essay: Step by Step Guide</a> (<em>7-step procedural guide</em>)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.mnhs.org/sites/default/files/preservation/grants/historical_research_guidelines.pdf">GUIDELINES FOR HISTORICAL RESEARCH AND WRITING (Minnesota Historical Society)</a> (<em>Detailed steps for producing historical narrative writing</em>)</li>
+<li><a href="https://programminghistorian.org/en/lessons/up-and-running-with-omeka" target="_blank" rel="noopener noreferrer">Up and Running with Omeka.net (The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/creating-an-omeka-exhibit" target="_blank" rel="noopener noreferrer">Creating an Omeka Exhibit (The Programming Historian)</a></li>
 </ul>
-<h3 id="compose-your-own-monograph">Compose your own monograph</h3>
+<h2 id="analyze-a-historical-text-corpus">Analyze a Historical Text Corpus</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://spubl.md/en/blog/how-to-write-a-monograph-a-step-by-step-guide-for-beginner-authors">How to write a monograph: a step-by-step guide for beginner authors</a> (<em>Structured process from topic to completion</em>)</li>
+<li><a href="https://programminghistorian.org/en/lessons/corpus-analysis-voyant-tools" target="_blank" rel="noopener noreferrer">Corpus Analysis with Voyant Tools (The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/corpus-analysis-with-antconc" target="_blank" rel="noopener noreferrer">Corpus Analysis with AntConc (The Programming Historian)</a></li>
 </ul>
-<h3 id="craft-your-own-biography">Craft your own biography</h3>
+<h2 id="conduct-and-archive-an-oral-history-project">Conduct and Archive an Oral History Project</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://reedsy.com/blog/how-to-write-a-biography">How to Write a Biography: A 7-Step Guide</a> (<em>Detailed research-to-writing steps</em>)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://danieljtortora.com/blog/start-writing-a-biography">Start Writing a Biography—in 10 Easy Steps</a> (<em>Practical sequence for biographical composition</em>)</li>
+<li><a href="https://oralhistory.org/best-practices/" target="_blank" rel="noopener noreferrer">Oral History Best Practices and Core Principles (Oral History Association)</a></li>
+<li><a href="https://folklife-media.si.edu/docs/folklife/interviewing_guide/InterviewingGuide.pdf" target="_blank" rel="noopener noreferrer">The Smithsonian Folklife and Oral History Interviewing Guide (Smithsonian Institution)</a></li>
+<li><a href="https://oralhistory.org/archiving-oral-history/" target="_blank" rel="noopener noreferrer">Archiving Oral History: Manual of Best Practices (Oral History Association)</a></li>
 </ul>
-<h3 id="write-your-own-historiography">Write your own historiography</h3>
+<h2 id="write-a-historiographical-review-essay">Write a Historiographical Review Essay</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://guides.lib.uoguelph.ca/c.php?g=725675&amp;p=5198838">Seven Steps to Writing Historiography (University of Guelph)</a> (<em>Step-by-step literature analysis and writing process</em>)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://uri.libguides.com/historiography/creation">How to Create a Historiography: Step-By-Step Creation (URI LibGuides)</a> (<em>Clear procedural creation guide</em>)</li>
+<li><a href="https://courses.bowdoin.edu/writing-guides/" target="_blank" rel="noopener noreferrer">Reading, Writing, and Researching for History: A Guide for College Students (Patrick Rael, Bowdoin College)</a></li>
+<li><a href="https://history.fas.harvard.edu/" target="_blank" rel="noopener noreferrer">A Brief Guide to Writing the History Paper (Harvard College Writing Center)</a></li>
 </ul>
-<h3 id="build-your-own-timeline">Build your own timeline</h3>
+<h2 id="produce-a-historical-audio-narrative-or-podcast">Produce a Historical Audio Narrative or Podcast</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://compassclassroom.com/blog/timeline-of-history">Create a Timeline of History (Compass Classroom)</a> (<em>Template-based building instructions</em>)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://slidemodel.com/essential-guide-making-timelines">The Essential Guide to Making Timelines in PowerPoint and Google Slides</a> (<em>Visual construction walkthrough adaptable to historical content</em>)</li>
+<li><a href="https://www.thecanadianencyclopedia.ca/en/article/how-to-make-an-oral-history-podcast" target="_blank" rel="noopener noreferrer">How to Make an Oral History Podcast (Historica Canada)</a></li>
+<li><a href="https://ncph.org/history-at-work/bring-a-sweater-podcasting-as-public-history/" target="_blank" rel="noopener noreferrer">Bring a Sweater: Podcasting as Public History (National Council on Public History)</a></li>
 </ul>
-</article>
-</main>
+    </article>
+  </main>
 
 </body>
 </html>

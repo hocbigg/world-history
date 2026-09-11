@@ -1,101 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Extra Reading</title>
-<link rel="stylesheet" href="/world-history/style.css">
-<meta name="description" content="">
+  <title>Landmark Readings in World History</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/world-history/">
+  <link rel="canonical" href="https://hocbigg.github.io/world-history/extras/readings.html">
+  <meta property="og:title" content="Landmark Readings in World History">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/world-history/extras/readings.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Extra Reading">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/world-history/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/world-history/">World-History</a>
-<a href="/world-history/advanced_topics.html">Advanced Topics</a>
-<a href="/world-history/projects.html">Projects</a>
-<a href="/world-history/extras/courses.html">Extra Courses</a>
-<a href="/world-history/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/world-history/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/world-history/">World History</a></li>
+      <li><a href="/world-history/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/world-history/projects.html">Projects</a></li>
+      <li><a href="/world-history/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/world-history/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/world-history/resources.html">Resources</a></li>
+      <li><a href="/world-history/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="extra-reading">Extra Reading</h1>
-<p>This document consists of great books or articles on World History.
-Some are here because there is a course covering the same material;
-some are just great books that you should read at some point in your career.</p>
-<p>Once you have made it through most of the curriculum, knowing whether a book is worth your time will become easier.
-Or, if you are struggling in one of the courses, perhaps reading a book on the subject will help.</p>
-<h2 id="big-picture-and-global-perspectives">Big Picture and Global Perspectives</h2>
-<table>
+  <main id="main-content">
+    <article>
+
+<h1 id="landmark-readings-in-world-history">Landmark Readings in World History</h1>
+<p>This curated reading list gathers field-defining monographs, transformative paradigm shifts, and seminal essays in World History. These works demonstrate how leading historians formulate macro-historical models, deconstruct Eurocentric frameworks, analyze ecological and economic systems, and interrogate the production of historical knowledge.</p>
+<ul>
+<li><a href="#global-systems-connected-geographies-and-the-longue-durée">Global Systems, Connected Geographies, and the Longue Durée</a> - Foundational models of world systems, macro-sociology, and structural historical time.</li>
+<li><a href="#ecology-disease-and-planetary-history">Ecology, Disease, and Planetary History</a> - Biological exchanges, epidemiological shocks, economic divergence, and climate history.</li>
+<li><a href="#capitalism-empire-and-global-commodity-chains">Capitalism, Empire, and Global Commodity Chains</a> - The structural links between unfree labor, global trade networks, and modern industrialization.</li>
+<li><a href="#power-subalternity-and-decolonial-historiography">Power, Subalternity, and Decolonial Historiography</a> - Methodological critiques of the archive, imperial knowledge production, and subaltern agency.</li>
+</ul>
+<h2 id="global-systems-connected-geographies-and-the-longue-duree">Global Systems, Connected Geographies, and the Longue Durée</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095">Sapiens: A Brief History of Humankind</a></td>
-<td style="text-align: center;">Yuval Noah Harari</td>
+<td><a href="https://archive.org/details/mediterraneanmed0000brau" target="_blank" rel="noopener noreferrer"><em>The Mediterranean and the Mediterranean World in the Age of Philip II</em></a></td>
+<td>Fernand Braudel</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552">Guns, Germs, and Steel: The Fates of Human Societies</a></td>
-<td style="text-align: center;">Jared Diamond</td>
+<td><a href="https://books.google.com/books?isbn=9780520267572" target="_blank" rel="noopener noreferrer"><em>The Modern World-System (Volume I)</em></a></td>
+<td>Immanuel Wallerstein</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Silk-Roads-New-History-World/dp/1101912375">The Silk Roads: A New History of the World</a></td>
-<td style="text-align: center;">Peter Frankopan</td>
+<td><a href="https://archive.org/details/beforeeuropeanhe0000abul" target="_blank" rel="noopener noreferrer"><em>Before European Hegemony: The World System A.D. 1250–1350</em></a></td>
+<td>Janet L. Abu-Lughod</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Collapse-Societies-Choose-Succeed-Revised/dp/0143117009">Collapse: How Societies Choose to Fail or Succeed</a></td>
-<td style="text-align: center;">Jared Diamond</td>
+<td><a href="https://archive.org/details/rethinkingworldh0000hodg" target="_blank" rel="noopener noreferrer"><em>Rethinking World History: Essays on Europe, Islam, and World History</em></a></td>
+<td>Marshall G. S. Hodgson</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780198077169" target="_blank" rel="noopener noreferrer"><em>Explorations in Connected History: From the Tagus to the Ganges</em></a></td>
+<td>Sanjay Subrahmanyam</td>
 </tr>
 </tbody>
-</table>
-<h2 id="thematic-and-regional-supplements">Thematic and Regional Supplements</h2>
-<table>
+</table></div>
+<h2 id="ecology-disease-and-planetary-history">Ecology, Disease, and Planetary History</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/History-World-100-Objects/dp/0143123524">A History of the World in 100 Objects</a></td>
-<td style="text-align: center;">Neil MacGregor</td>
+<td><a href="https://archive.org/details/columbianexchang0000cros" target="_blank" rel="noopener noreferrer"><em>The Columbian Exchange: Biological and Cultural Consequences of 1492</em></a></td>
+<td>Alfred W. Crosby</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Genghis-Khan-Making-Modern-World/dp/0609809644">Genghis Khan and the Making of the Modern World</a></td>
-<td style="text-align: center;">Jack Weatherford</td>
+<td><a href="https://archive.org/details/plaguespeoples0000mcne" target="_blank" rel="noopener noreferrer"><em>Plagues and Peoples</em></a></td>
+<td>William H. McNeill</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Dawn-Everything-New-History-Humanity/dp/0374157359">The Dawn of Everything: A New History of Humanity</a></td>
-<td style="text-align: center;">David Graeber and David Wengrow</td>
+<td><a href="https://archive.org/details/greatdivergencec0000pome" target="_blank" rel="noopener noreferrer"><em>The Great Divergence: China, Europe, and the Making of the Modern World Economy</em></a></td>
+<td>Kenneth Pomeranz</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Little-History-World-Illustrated/dp/030014332X">A Little History of the World</a></td>
-<td style="text-align: center;">E.H. Gombrich</td>
+<td><a href="https://doi.org/10.1086/596640" target="_blank" rel="noopener noreferrer"><em>The Climate of History: Four Theses</em></a></td>
+<td>Dipesh Chakrabarty</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780300208634" target="_blank" rel="noopener noreferrer"><em>Global Crisis: War, Climate Change and Catastrophe in the Seventeenth Century</em></a></td>
+<td>Geoffrey Parker</td>
 </tr>
 </tbody>
-</table>
-</article>
-</main>
+</table></div>
+<h2 id="capitalism-empire-and-global-commodity-chains">Capitalism, Empire, and Global Commodity Chains</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9781469663685" target="_blank" rel="noopener noreferrer"><em>Capitalism and Slavery</em></a></td>
+<td>Eric Williams</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/blackjacobinstou00jame" target="_blank" rel="noopener noreferrer"><em>The Black Jacobins: Toussaint L'Ouverture and the San Domingo Revolution</em></a></td>
+<td>C. L. R. James</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/sweetnesspowerpl00mint" target="_blank" rel="noopener noreferrer"><em>Sweetness and Power: The Place of Sugar in Modern History</em></a></td>
+<td>Sidney W. Mintz</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780375713965" target="_blank" rel="noopener noreferrer"><em>Empire of Cotton: A Global History</em></a></td>
+<td>Sven Beckert</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/greattransforma00pola" target="_blank" rel="noopener noreferrer"><em>The Great Transformation: The Political and Economic Origins of Our Time</em></a></td>
+<td>Karl Polanyi</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="power-subalternity-and-decolonial-historiography">Power, Subalternity, and Decolonial Historiography</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://archive.org/details/silencingpastpow0000trou" target="_blank" rel="noopener noreferrer"><em>Silencing the Past: Power and the Production of History</em></a></td>
+<td>Michel-Rolph Trouillot</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/provincializinge0000chak" target="_blank" rel="noopener noreferrer"><em>Provincializing Europe: Postcolonial Thought and Historical Difference</em></a></td>
+<td>Dipesh Chakrabarty</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/dli.bengal.10689.12740" target="_blank" rel="noopener noreferrer"><em>Selected Subaltern Studies</em></a></td>
+<td>Ranajit Guha and Gayatri Chakravorty Spivak (eds.)</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/orientalism0000said" target="_blank" rel="noopener noreferrer"><em>Orientalism</em></a></td>
+<td>Edward W. Said</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780253204684" target="_blank" rel="noopener noreferrer"><em>The Invention of Africa: Gnosis, Philosophy, and the Order of Knowledge</em></a></td>
+<td>V. Y. Mudimbe</td>
+</tr>
+</tbody>
+</table></div>
+    </article>
+  </main>
 
 </body>
 </html>
