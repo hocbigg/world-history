@@ -6,18 +6,20 @@
   <meta name="color-scheme" content="light dark">
 
   <title>Projects</title>
-  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="description" content="Projects curriculum by hocbigg.">
   <meta name="author" content="hocbigg">
 
   <link rel="canonical" href="https://hocbigg.github.io/world-history/projects.html">
   <meta property="og:title" content="Projects">
-  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:description" content="Projects curriculum by hocbigg.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://hocbigg.github.io/world-history/projects.html">
   <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
   <style>
 :root {
+  color-scheme: light dark;
+
   --bg: #ffffff;
   --fg: #1a1a1a;
   --muted: #595959;
@@ -47,12 +49,14 @@
 
 body {
   margin: 1.5rem auto;
-  max-width: min(60rem, 92vw);
-  padding: 0 0.75rem 3.5rem;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
   background-color: var(--bg);
   color: var(--fg);
   font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  word-wrap: break-word;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
 }
 
 .site-header {
@@ -93,7 +97,7 @@ nav .nav-brand {
 
 .skip-link {
   position: absolute;
-  top: -9999px;
+  transform: translateY(-150%);
   left: 1rem;
   background: var(--fg);
   color: var(--bg);
@@ -102,9 +106,11 @@ nav .nav-brand {
   text-decoration: none;
   font-weight: 600;
   border-radius: 4px;
+  transition: transform 0.2s ease;
 }
+
 .skip-link:focus {
-  top: 1rem;
+  transform: translateY(1rem);
 }
 
 .sr-only {
@@ -114,7 +120,7 @@ nav .nav-brand {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
 }
@@ -126,13 +132,41 @@ nav .nav-brand {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
-  margin-top: 1.75em;
-  margin-bottom: 0.5em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   color: var(--fg);
+  font-weight: 600;
 }
-h1 { font-size: 1.85rem; margin-top: 0.5em; }
-h2 { font-size: 1.45rem; }
-h3 { font-size: 1.2rem; }
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
 
 p, ul, ol, blockquote, table {
   margin-top: 0;
@@ -159,13 +193,28 @@ a:hover {
   text-decoration-thickness: 2px;
 }
 
+a:has(img) {
+  text-decoration: none;
+}
+
 .page-header {
   text-align: center;
   margin-bottom: 2rem;
 }
-.page-header img {
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
   max-width: 100%;
   height: auto;
+}
+
+.page-header img {
   margin: 0 auto 1rem;
   display: block;
 }
@@ -178,6 +227,7 @@ code {
   border-radius: 4px;
   border: 1px solid var(--border);
 }
+
 pre {
   background-color: var(--code-bg);
   border: 1px solid var(--border);
@@ -186,33 +236,39 @@ pre {
   overflow-x: auto;
   tab-size: 2;
 }
+
 pre code {
   background: transparent;
   padding: 0;
   border: none;
   font-size: 0.9rem;
+  border-radius: 0;
 }
 
 .table-wrapper {
   overflow-x: auto;
   margin-bottom: 1.5rem;
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
 }
+
 th, td {
   border: 1px solid var(--border);
   padding: 0.6rem 0.75rem;
   vertical-align: top;
 }
+
 th {
   background-color: var(--th-bg);
   font-weight: 600;
 }
 
 blockquote {
+  margin-inline: 0;
   border-left: 4px solid var(--border);
   padding-left: 1rem;
   color: var(--muted);
@@ -221,11 +277,12 @@ blockquote {
 
 @media (prefers-reduced-motion: reduce) {
   * {
-    animation-duration: 0.01ms !important;
-    transition-duration: 0.01ms !important;
+    animation: none !important;
+    transition: none !important;
     scroll-behavior: auto !important;
   }
 }
+
 @media print {
   body {
     max-width: none;
@@ -252,8 +309,7 @@ blockquote {
       <li><a href="/world-history/extras/readings.html">Extra Readings</a></li>
       <li><a href="/world-history/extras/courses.html">Extra Courses</a></li>
       <li><a href="/world-history/resources.html">Resources</a></li>
-      <li><a href="/world-history/extras/other_curricula.html">Other Curricula</a></li>
-      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+      <li><a href="https://github.com/hocbigg/world-history" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
     </ul>
     </nav>
   </header>
@@ -262,42 +318,58 @@ blockquote {
     <article>
 
 <h1 id="projects">Projects</h1>
-<p>This page provides a curated directory of step-by-step methodological walkthroughs, open-source project guides, and analytical workflows for studying World History through concrete deliverables. Rather than following abstract academic exercises, learners can select an artifact to construct—such as an interactive spatial map, a digital primary-source archive, or an oral history collection—and apply historical methods through hands-on practice.</p>
-<h2 id="build-an-interactive-historical-timeline">Build an Interactive Historical Timeline</h2>
+<blockquote>
+<p>"What I cannot create, I do not understand." — Richard Feynman</p>
+</blockquote>
+<ul>
+<li><a href="#build-your-own-interactive-timelines">Interactive Timelines</a></li>
+<li><a href="#create-your-own-historical-maps">Historical Maps</a></li>
+<li><a href="#curate-your-own-digital-exhibits">Digital Exhibits</a></li>
+<li><a href="#analyze-your-own-historical-text-corpora">Historical Text Corpora</a></li>
+<li><a href="#visualize-your-own-historical-networks">Historical Networks</a></li>
+<li><a href="#conduct-your-own-oral-history-interviews">Oral History Interviews</a></li>
+<li><a href="#write-your-own-historiographical-essays">Historiographical Essays</a></li>
+<li><a href="#produce-your-own-history-podcasts">History Podcasts</a></li>
+</ul>
+<h2 id="build-your-own-interactive-timelines">Build your own interactive timelines</h2>
 <ul>
 <li><a href="https://timeline.knightlab.com/" target="_blank" rel="noopener noreferrer">TimelineJS: Make an Interactive Timeline (Knight Lab, Northwestern University)</a></li>
 </ul>
-<h2 id="map-spatial-and-geographic-history">Map Spatial and Geographic History</h2>
+<h2 id="create-your-own-historical-maps">Create your own historical maps</h2>
 <ul>
 <li><a href="https://storymap.knightlab.com/" target="_blank" rel="noopener noreferrer">StoryMapJS: Telling Stories with Maps (Knight Lab, Northwestern University)</a></li>
 <li><a href="https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js" target="_blank" rel="noopener noreferrer">Displaying a Georeferenced Map in KnightLab's StoryMap JS (The Programming Historian)</a></li>
 <li><a href="https://programminghistorian.org/en/lessons/geocoding-historical-data-using-qgis" target="_blank" rel="noopener noreferrer">Geocoding Historical Data using QGIS (The Programming Historian)</a></li>
 <li><a href="https://programminghistorian.org/en/lessons/georeferencing-qgis-2" target="_blank" rel="noopener noreferrer">Georeferencing in QGIS 2.0 (The Programming Historian)</a></li>
 </ul>
-<h2 id="curate-a-digital-archive-or-online-exhibit">Curate a Digital Archive or Online Exhibit</h2>
+<h2 id="curate-your-own-digital-exhibits">Curate your own digital exhibits</h2>
 <ul>
 <li><a href="https://programminghistorian.org/en/lessons/up-and-running-with-omeka" target="_blank" rel="noopener noreferrer">Up and Running with Omeka.net (The Programming Historian)</a></li>
 <li><a href="https://programminghistorian.org/en/lessons/creating-an-omeka-exhibit" target="_blank" rel="noopener noreferrer">Creating an Omeka Exhibit (The Programming Historian)</a></li>
 </ul>
-<h2 id="analyze-a-historical-text-corpus">Analyze a Historical Text Corpus</h2>
+<h2 id="analyze-your-own-historical-text-corpora">Analyze your own historical text corpora</h2>
 <ul>
 <li><a href="https://programminghistorian.org/en/lessons/corpus-analysis-voyant-tools" target="_blank" rel="noopener noreferrer">Corpus Analysis with Voyant Tools (The Programming Historian)</a></li>
 <li><a href="https://programminghistorian.org/en/lessons/corpus-analysis-with-antconc" target="_blank" rel="noopener noreferrer">Corpus Analysis with AntConc (The Programming Historian)</a></li>
 </ul>
-<h2 id="conduct-and-archive-an-oral-history-project">Conduct and Archive an Oral History Project</h2>
+<h2 id="visualize-your-own-historical-networks">Visualize your own historical networks</h2>
+<ul>
+<li><a href="https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources" target="_blank" rel="noopener noreferrer">From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources (The Programming Historian)</a></li>
+</ul>
+<h2 id="conduct-your-own-oral-history-interviews">Conduct your own oral history interviews</h2>
 <ul>
 <li><a href="https://oralhistory.org/best-practices/" target="_blank" rel="noopener noreferrer">Oral History Best Practices and Core Principles (Oral History Association)</a></li>
 <li><a href="https://folklife-media.si.edu/docs/folklife/interviewing_guide/InterviewingGuide.pdf" target="_blank" rel="noopener noreferrer">The Smithsonian Folklife and Oral History Interviewing Guide (Smithsonian Institution)</a></li>
 <li><a href="https://oralhistory.org/archiving-oral-history/" target="_blank" rel="noopener noreferrer">Archiving Oral History: Manual of Best Practices (Oral History Association)</a></li>
 </ul>
-<h2 id="write-a-historiographical-review-essay">Write a Historiographical Review Essay</h2>
+<h2 id="write-your-own-historiographical-essays">Write your own historiographical essays</h2>
 <ul>
 <li><a href="https://courses.bowdoin.edu/writing-guides/" target="_blank" rel="noopener noreferrer">Reading, Writing, and Researching for History: A Guide for College Students (Patrick Rael, Bowdoin College)</a></li>
-<li><a href="https://history.fas.harvard.edu/" target="_blank" rel="noopener noreferrer">A Brief Guide to Writing the History Paper (Harvard College Writing Center)</a></li>
+<li><a href="https://writingcenter.fas.harvard.edu/brief-guides-writing-disciplines" target="_blank" rel="noopener noreferrer">Brief Guide to Writing the History Paper (Harvard College Writing Center)</a></li>
 </ul>
-<h2 id="produce-a-historical-audio-narrative-or-podcast">Produce a Historical Audio Narrative or Podcast</h2>
+<h2 id="produce-your-own-history-podcasts">Produce your own history podcasts</h2>
 <ul>
-<li><a href="https://www.thecanadianencyclopedia.ca/en/article/how-to-make-an-oral-history-podcast" target="_blank" rel="noopener noreferrer">How to Make an Oral History Podcast (Historica Canada)</a></li>
+<li><a href="https://fb.historicacanada.ca/education/english/how-to-make-an-oral-history-podcast/" target="_blank" rel="noopener noreferrer">How to Make an Oral History Podcast (Historica Canada)</a></li>
 <li><a href="https://ncph.org/history-at-work/bring-a-sweater-podcasting-as-public-history/" target="_blank" rel="noopener noreferrer">Bring a Sweater: Podcasting as Public History (National Council on Public History)</a></li>
 </ul>
     </article>
